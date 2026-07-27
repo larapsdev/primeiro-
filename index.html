@@ -40,13 +40,14 @@ margin: 0 auto;
     <p>Por: Lara Pesserl</p>
     <h2>História da Marvel</h2>
     <p>     Resolvi falar sobre meu grande amor, a Marvel. Mais especificamente sobre essa trajetória dos filmes de 2008 até os dias atuais (como meu foco é no MCU, mencionarei pouco a franquia de X-Men, e por serem muitos, não citarei todos os projetos).
-     Antes que eu possa comentar sobre os filmes, não posso deixar de contar como chegamos a eles, não é mesmo? Pois então, nossa história começa em 1939, quando Martin Goodman fundou a empresa Timely Comics, publicando histórias de faroeste, terror, ficção científica e super-heróis. Nessa mesma época, Stan Lee, ainda um menino de 17 anos, começou a trabalhar para eles como assistente, buscando café, apagando lápis dos desenhistas e organizando páginas.
+     Antes que eu possa comentar sobre os filmes, não posso deixar de contar como chegamos a eles. Então, nossa história começa em 1939, quando Martin Goodman fundou a empresa Timely Comics, publicando histórias de faroeste, terror, ficção científica e super-heróis. Nessa mesma época, Stan Lee, ainda um menino de 17 anos, começou a trabalhar para eles como assistente, buscando café, apagando lápis dos desenhistas e organizando páginas.
      Nos anos 40 (1941 para ser exata), Joe Simon e Jack Kirby criaram o conhecido Capitão América (vulgo donut glaceado).
      Com o tempo, Stan Lee foi conhecendo mais sobre esse mundo de HQs, se apaixonando por esse universo e se mostrando muito bom no assunto, assim subindo para posições de mais destaque. Então, nos anos 60, Stan Lee, Jack Kirby e Steve Ditko começaram a criação de novos heróis, que diferentemente dos heróis perfeitos que costumavam ser criados, eram heróis humanizados, ou seja, com defeitos e imperfeições.
      Os novos personagens e grupos que chegaram foram: Fantastic Four (1961); Hulk (1962); Spider-Man (1962); Thor (1962); Iron Man (1963); X-Men (1963); e Black Panther (1966). E com o lançamento de Fantastic Four #1, em 1961,  a empresa se tornou oficialmente a Marvel.
 *curiosidade: T’challa (Pantera Negra) e Ororo (Tempestade) já foram casados nos quadrinhos.
      Após vários anos de vendas de HQs e ganho de reconhecimento nesse mundo, a Marvel entrou em uma crise financeira terrível, chegando a declarar falência em 1996. Sem alternativa, vendeu os direitos cinematográficos de seus heróis mais famosos: Homem-Aranha para a Sony, X-Men, Quarteto Fantástico e Demolidor para a Fox. Assim, precisando de dinheiro com urgência, em 2005, a Marvel Studios conseguiu financiamento para produzir seus próprios filmes, e com isso, surgiu a ideia de apostar nos heróis que ainda pertenciam à empresa: Homem de Ferro, Thor, Capitão América e Vingadores.
 </p>
+<button>🤖<span>0</span></button>
 <h2>O nascimento do MCU</h2>
 <p>    Agora que você sabe a base da história, vamos entrar no Marvel Cinematic Universe (MCU).
      30 de abril de 2008, nesse dia foi lançado o primeiro filme desse universo, Iron Man, com um orçamento de cerca de 140 milhões de dólares, e com o protagonista (Tony Stark) sendo interpretado por Robert Downey Jr., uma escolha arriscada para a época, devido ao histórico de prisões e dependência química do ator. Além disso, houve diversas cenas improvisadas e mudanças de roteiro durante as gravações. Mas a obra
@@ -77,4 +78,13 @@ Seu objetivo era apresentar os heróis e o grupo principal.
     </main>
 
 </body>
+<script>
+const botao = document.querySelector("button");
+botao.addEventListener("click", botaoClicado);
+function botaoClicado() {
+console.log("fui clicado");
+let texto = botao.querySelector("span");
+texto.textContent++;
+}
+</script>
 </html>
