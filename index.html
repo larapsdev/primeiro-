@@ -86,7 +86,9 @@ Seu objetivo era apresentar os heróis e o grupo principal.
 <script>
 const botoes = document.querySelectorAll("button");
 botoes.forEach(function(botao) {
-botao.addEventListener("click", botaoClicado);
+botao.addEventListener("click", function () {
+     botaoClicado(botao)
+     });
 });
 
 function botaoClicado(botao) {
